@@ -1,0 +1,5 @@
+{
+	"description": "复制不带参数类型的参数名称，一键粘贴到需要传参的位置，再也不用复制后一点点删除类型，提高开发效率",
+	"displayName": "复制纯函数参数",
+	"copy.function.parameters.without.type": "复制纯函数参数"
+}

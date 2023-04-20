@@ -1,0 +1,5 @@
+{
+	"description": "Copy parameter names without parameter types, paste them with one click to the location where the parameters need to be passed, no longer having to delete the types bit by bit after copying, improving development efficiency",
+	"displayName": "Copy pure function parameters",
+	"copy.function.parameters.without.type": "Copy pure function parameters"
+}
