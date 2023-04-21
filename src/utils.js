@@ -4,6 +4,10 @@ function selectedToParametersArray(selectedText) {
 
 	const leftB = '(';
 	const rightB = ')';
+    
+    const leftB1 = '{';
+    const rightB1 = '}';
+    
 
 	let text = selectedText;
 	if (selectedText.startsWith(leftB) && selectedText.endsWith(rightB)) {
@@ -13,10 +17,10 @@ function selectedToParametersArray(selectedText) {
 	let pos = 0;
 	for (let i = 0; i < text.length; ++i) {
 		const char = text[i];
-		if (char === leftB) {
+		if (char === leftB || char === leftB1) {
 			level++;
 			continue;
-		} else if (char === rightB) {
+		} else if (char === rightB || char === rightB1) {
 			level--;
 			continue;
 		} else if (level === 0 && char === ',') {
@@ -30,7 +34,7 @@ function selectedToParametersArray(selectedText) {
 		}
 	}
 
-	if (pos < text.length) {
+	if (level === 0 && pos < text.length) {
 		arr.push(text.substring(pos, text.length))
 	}
 	

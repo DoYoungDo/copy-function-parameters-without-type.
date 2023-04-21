@@ -18,5 +18,6 @@ class B extends A {
 	}
 }
 ```
+- 目前仅支持`typescript`
 
 ![](https://mp-b9e71787-b2f3-4676-bbfa-f4c5735dea01.cdn.bspapp.com/cloudstorage/9f99b096-5d99-4325-b049-98668df3ea7d.jpg)

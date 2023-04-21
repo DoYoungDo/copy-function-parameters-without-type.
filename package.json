@@ -3,7 +3,7 @@
 	"name": "copy-function-parameters-without-type",
 	"description": "%description%",
 	"displayName": "%displayName%",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"engines": {
 		"HBuilderX": "^3.2.6"
 	},
